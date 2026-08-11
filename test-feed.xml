@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  GeoCal AI — Test Property Feed
+  Simulates a Rightmove RTDF-style XML feed
+  Use this to build and test your Make/Google Sheets/Voiceflow property matching flow
+  Replace the URL in your Make HTTP module with the raw GitHub URL of this file
+-->
+<propertyFeed>
+  <agentDetails>
+    <agentName>Prestige Lettings &amp; Sales</agentName>
+    <agentID>PRESTIGE001</agentID>
+    <branchName>Preston City Centre</branchName>
+    <phone>01772 123456</phone>
+    <email>lettings@prestigepreston.co.uk</email>
+  </agentDetails>
+
+  <properties>
+
+    <!-- PROPERTY 1 — HOT for 2 bed renters under £900 -->
+    <property>
+      <propertyID>PREST001</propertyID>
+      <listingType>Letting</listingType>
+      <propertyType>Flat</propertyType>
+      <bedrooms>2</bedrooms>
+      <bathrooms>1</bathrooms>
+      <price>825</price>
+      <priceQualifier>pcm</priceQualifier>
+      <address>
+        <houseNumber>14</houseNumber>
+        <street>Fishergate</street>
+        <town>Preston</town>
+        <postcode>PR1 2AL</postcode>
+        <fullAddress>14 Fishergate, Preston, PR1 2AL</fullAddress>
+      </address>
+      <available>2026-08-01</available>
+      <furnished>Furnished</furnished>
+      <petsAllowed>false</petsAllowed>
+      <description>Stunning 2 bedroom apartment in the heart of Preston city centre. Newly refurbished throughout with modern kitchen, open plan living area and private balcony. Walking distance to train station and all amenities. Perfect for professionals.</description>
+      <keyFeatures>
+        <feature>Open plan kitchen/living room</feature>
+        <feature>Private balcony</feature>
+        <feature>Walk to train station</feature>
+        <feature>Newly refurbished</feature>
+        <feature>Secure entry</feature>
+      </keyFeatures>
+      <photos>
+        <photo>https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=600</photo>
+        <photo>https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=600</photo>
+      </photos>
+      <epcRating>B</epcRating>
+      <councilTaxBand>B</councilTaxBand>
+      <status>Available</status>
+    </property>
+
+    <!-- PROPERTY 2 — HOT for 1 bed renters under £700 -->
+    <property>
+      <propertyID>PREST002</propertyID>
+      <listingType>Letting</listingType>
+      <propertyType>Flat</propertyType>
+      <bedrooms>1</bedrooms>
+      <bathrooms>1</bathrooms>
+      <price>650</price>
+      <priceQualifier>pcm</priceQualifier>
+      <address>
+        <houseNumber>8</houseNumber>
+        <street>Winckley Square</street>
+        <town>Preston</town>
+        <postcode>PR1 3JJ</postcode>
+        <fullAddress>8 Winckley Square, Preston, PR1 3JJ</fullAddress>
+      </address>
+      <available>2026-07-25</available>
+      <furnished>Part Furnished</furnished>
+      <petsAllowed>false</petsAllowed>
+      <description>Bright and spacious 1 bedroom apartment in the prestigious Winckley Square conservation area. High ceilings, original features, modern shower room. Ideal for a single professional or couple. Quiet tree-lined location just minutes from the city centre.</description>
+      <keyFeatures>
+        <feature>Conservation area location</feature>
+        <feature>High ceilings and period features</feature>
+        <feature>Modern shower room</feature>
+        <feature>Quiet location</feature>
+        <feature>5 mins walk to city centre</feature>
+      </keyFeatures>
+      <photos>
+        <photo>https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=600</photo>
+        <photo>https://images.unsplash.com/photo-1484154218962-a197022b5858?w=600</photo>
+      </photos>
+      <epcRating>C</epcRating>
+      <councilTaxBand>A</councilTaxBand>
+      <status>Available</status>
+    </property>
+
+    <!-- PROPERTY 3 — 3 bed house for families -->
+    <property>
+      <propertyID>PREST003</propertyID>
+      <listingType>Letting</listingType>
+      <propertyType>Semi-Detached House</propertyType>
+      <bedrooms>3</bedrooms>
+      <bathrooms>2</bathrooms>
+      <price>1100</price>
+      <priceQualifier>pcm</priceQualifier>
+      <address>
+        <houseNumber>22</houseNumber>
+        <street>Ribbleton Avenue</street>
+        <town>Preston</town>
+        <postcode>PR1 5NA</postcode>
+        <fullAddress>22 Ribbleton Avenue, Preston, PR1 5NA</fullAddress>
+      </address>
+      <available>2026-08-15</available>
+      <furnished>Unfurnished</furnished>
+      <petsAllowed>true</petsAllowed>
+      <description>Excellent 3 bedroom semi-detached family home on a popular residential street. Spacious lounge, modern fitted kitchen, south-facing garden, driveway for two cars. Close to highly-rated primary schools, bus routes and local shops. Pets considered.</description>
+      <keyFeatures>
+        <feature>South-facing garden</feature>
+        <feature>Driveway for 2 cars</feature>
+        <feature>Close to primary schools</feature>
+        <feature>Pets considered</feature>
+        <feature>Modern kitchen</feature>
+      </keyFeatures>
+      <photos>
+        <photo>https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=600</photo>
+        <photo>https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600</photo>
+      </photos>
+      <epcRating>C</epcRating>
+      <councilTaxBand>C</councilTaxBand>
+      <status>Available</status>
+    </property>
+
+    <!-- PROPERTY 4 — Studio for students/young professionals -->
+    <property>
+      <propertyID>PREST004</propertyID>
+      <listingType>Letting</listingType>
+      <propertyType>Studio</propertyType>
+      <bedrooms>0</bedrooms>
+      <bathrooms>1</bathrooms>
+      <price>495</price>
+      <priceQualifier>pcm</priceQualifier>
+      <address>
+        <houseNumber>3</houseNumber>
+        <street>Cannon Street</street>
+        <town>Preston</town>
+        <postcode>PR1 3NT</postcode>
+        <fullAddress>3 Cannon Street, Preston, PR1 3NT</fullAddress>
+      </address>
+      <available>2026-07-15</available>
+      <furnished>Fully Furnished</furnished>
+      <petsAllowed>false</petsAllowed>
+      <description>Modern studio apartment ideal for a student or young professional. Fully furnished with double bed, sofa, desk, kitchenette and modern shower room. High speed broadband included. Secure building with video entry. Bills not included.</description>
+      <keyFeatures>
+        <feature>Fully furnished</feature>
+        <feature>High speed broadband included</feature>
+        <feature>Secure video entry</feature>
+        <feature>Close to UCLan campus</feature>
+        <feature>Available immediately</feature>
+      </keyFeatures>
+      <photos>
+        <photo>https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600</photo>
+      </photos>
+      <epcRating>B</epcRating>
+      <councilTaxBand>A</councilTaxBand>
+      <status>Available</status>
+    </property>
+
+    <!-- PROPERTY 5 — 4 bed executive house -->
+    <property>
+      <propertyID>PREST005</propertyID>
+      <listingType>Letting</listingType>
+      <propertyType>Detached House</propertyType>
+      <bedrooms>4</bedrooms>
+      <bathrooms>3</bathrooms>
+      <price>1800</price>
+      <priceQualifier>pcm</priceQualifier>
+      <address>
+        <houseNumber>7</houseNumber>
+        <street>Longridge Road</street>
+        <town>Ribbleton</town>
+        <postcode>PR2 6RJ</postcode>
+        <fullAddress>7 Longridge Road, Ribbleton, Preston, PR2 6RJ</fullAddress>
+      </address>
+      <available>2026-09-01</available>
+      <furnished>Unfurnished</furnished>
+      <petsAllowed>true</petsAllowed>
+      <description>Impressive 4 bedroom detached executive home in sought-after Ribbleton. Spacious kitchen-diner, formal lounge, home office, master en-suite, family bathroom, landscaped rear garden and double garage. Perfect for relocating families or senior professionals.</description>
+      <keyFeatures>
+        <feature>Double garage</feature>
+        <feature>Master en-suite</feature>
+        <feature>Home office</feature>
+        <feature>Landscaped garden</feature>
+        <feature>Sought-after location</feature>
+      </keyFeatures>
+      <photos>
+        <photo>https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=600</photo>
+        <photo>https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=600</photo>
+      </photos>
+      <epcRating>C</epcRating>
+      <councilTaxBand>F</councilTaxBand>
+      <status>Available</status>
+    </property>
+
+    <!-- PROPERTY 6 — 2 bed house for sale -->
+    <property>
+      <propertyID>PREST006</propertyID>
+      <listingType>Sale</listingType>
+      <propertyType>Terraced House</propertyType>
+      <bedrooms>2</bedrooms>
+      <bathrooms>1</bathrooms>
+      <price>145000</price>
+      <priceQualifier>Guide Price</priceQualifier>
+      <address>
+        <houseNumber>41</houseNumber>
+        <street>Corporation Street</street>
+        <town>Preston</town>
+        <postcode>PR1 7QU</postcode>
+        <fullAddress>41 Corporation Street, Preston, PR1 7QU</fullAddress>
+      </address>
+      <available>On completion</available>
+      <furnished>Unfurnished</furnished>
+      <petsAllowed>true</petsAllowed>
+      <description>Charming 2 bedroom mid-terraced house in a well-connected central location. Lounge, kitchen, rear yard, upstairs bathroom. Ideal for first-time buyers or investors. Close to Preston city centre, transport links and local amenities. No onward chain.</description>
+      <keyFeatures>
+        <feature>No onward chain</feature>
+        <feature>Ideal for first-time buyers</feature>
+        <feature>Close to city centre</feature>
+        <feature>Good investment potential</feature>
+        <feature>Well-connected location</feature>
+      </keyFeatures>
+      <photos>
+        <photo>https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=600</photo>
+      </photos>
+      <epcRating>D</epcRating>
+      <councilTaxBand>A</councilTaxBand>
+      <status>Available</status>
+    </property>
+
+    <!-- PROPERTY 7 — 3 bed house for sale -->
+    <property>
+      <propertyID>PREST007</propertyID>
+      <listingType>Sale</listingType>
+      <propertyType>Semi-Detached House</propertyType>
+      <bedrooms>3</bedrooms>
+      <bathrooms>1</bathrooms>
+      <price>229000</price>
+      <priceQualifier>Offers Over</priceQualifier>
+      <address>
+        <houseNumber>19</houseNumber>
+        <street>Fulwood Row</street>
+        <town>Fulwood</town>
+        <postcode>PR2 8LH</postcode>
+        <fullAddress>19 Fulwood Row, Fulwood, Preston, PR2 8LH</fullAddress>
+      </address>
+      <available>On completion</available>
+      <furnished>Unfurnished</furnished>
+      <petsAllowed>true</petsAllowed>
+      <description>Well-presented 3 bedroom semi-detached family home in the popular Fulwood area. Extended kitchen-diner, large lounge, three good-sized bedrooms, family bathroom, enclosed rear garden and driveway. Excellent school catchment. Move-in ready condition throughout.</description>
+      <keyFeatures>
+        <feature>Extended kitchen-diner</feature>
+        <feature>Excellent school catchment</feature>
+        <feature>Enclosed rear garden</feature>
+        <feature>Driveway parking</feature>
+        <feature>Move-in ready</feature>
+      </keyFeatures>
+      <photos>
+        <photo>https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?w=600</photo>
+        <photo>https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=600</photo>
+      </photos>
+      <epcRating>C</epcRating>
+      <councilTaxBand>C</councilTaxBand>
+      <status>Available</status>
+    </property>
+
+    <!-- PROPERTY 8 — 4 bed house for sale upmarket -->
+    <property>
+      <propertyID>PREST008</propertyID>
+      <listingType>Sale</listingType>
+      <propertyType>Detached House</propertyType>
+      <bedrooms>4</bedrooms>
+      <bathrooms>3</bathrooms>
+      <price>475000</price>
+      <priceQualifier>Guide Price</priceQualifier>
+      <address>
+        <houseNumber>2</houseNumber>
+        <street>Garstang Road</street>
+        <town>Broughton</town>
+        <postcode>PR3 5JB</postcode>
+        <fullAddress>2 Garstang Road, Broughton, Preston, PR3 5JB</fullAddress>
+      </address>
+      <available>On completion</available>
+      <furnished>Unfurnished</furnished>
+      <petsAllowed>true</petsAllowed>
+      <description>Exceptional 4 bedroom detached residence in the highly sought-after village of Broughton. Stunning open-plan kitchen-living room with bi-fold doors to mature rear garden, formal dining room, study, master suite with dressing room and en-suite, triple garage. A truly outstanding family home.</description>
+      <keyFeatures>
+        <feature>Bi-fold doors to garden</feature>
+        <feature>Master suite with dressing room</feature>
+        <feature>Triple garage</feature>
+        <feature>Village location</feature>
+        <feature>Mature private garden</feature>
+      </keyFeatures>
+      <photos>
+        <photo>https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=600</photo>
+        <photo>https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600</photo>
+      </photos>
+      <epcRating>B</epcRating>
+      <councilTaxBand>G</councilTaxBand>
+      <status>Available</status>
+    </property>
+
+    <!-- PROPERTY 9 — 2 bed letting mid range -->
+    <property>
+      <propertyID>PREST009</propertyID>
+      <listingType>Letting</listingType>
+      <propertyType>Terraced House</propertyType>
+      <bedrooms>2</bedrooms>
+      <bathrooms>1</bathrooms>
+      <price>750</price>
+      <priceQualifier>pcm</priceQualifier>
+      <address>
+        <houseNumber>67</houseNumber>
+        <street>Deepdale Road</street>
+        <town>Preston</town>
+        <postcode>PR1 6PZ</postcode>
+        <fullAddress>67 Deepdale Road, Preston, PR1 6PZ</fullAddress>
+      </address>
+      <available>2026-08-01</available>
+      <furnished>Part Furnished</furnished>
+      <petsAllowed>false</petsAllowed>
+      <description>Well-maintained 2 bedroom terraced house close to the city centre and Preston North End FC. Cosy lounge, kitchen, private yard, two double bedrooms and modern bathroom. Good transport links. Ideal for a couple or sharers. References required.</description>
+      <keyFeatures>
+        <feature>Two double bedrooms</feature>
+        <feature>Private rear yard</feature>
+        <feature>Close to city centre</feature>
+        <feature>Good transport links</feature>
+        <feature>Modern bathroom</feature>
+      </keyFeatures>
+      <photos>
+        <photo>https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=600</photo>
+      </photos>
+      <epcRating>D</epcRating>
+      <councilTaxBand>A</councilTaxBand>
+      <status>Available</status>
+    </property>
+
+    <!-- PROPERTY 10 — 1 bed letting low end -->
+    <property>
+      <propertyID>PREST010</propertyID>
+      <listingType>Letting</listingType>
+      <propertyType>Flat</propertyType>
+      <bedrooms>1</bedrooms>
+      <bathrooms>1</bathrooms>
+      <price>575</price>
+      <priceQualifier>pcm</priceQualifier>
+      <address>
+        <houseNumber>12A</houseNumber>
+        <street>Friargate</street>
+        <town>Preston</town>
+        <postcode>PR1 2EJ</postcode>
+        <fullAddress>12A Friargate, Preston, PR1 2EJ</fullAddress>
+      </address>
+      <available>2026-07-28</available>
+      <furnished>Furnished</furnished>
+      <petsAllowed>false</petsAllowed>
+      <description>Compact but well-presented 1 bedroom ground floor flat above a shop on busy Friargate. Furnished with white goods included. Separate lounge and bedroom, modern shower room, storage cupboard. Suits a single occupant. Bills not included. Available end of July.</description>
+      <keyFeatures>
+        <feature>Ground floor</feature>
+        <feature>Furnished</feature>
+        <feature>White goods included</feature>
+        <feature>Available end July</feature>
+        <feature>Central location</feature>
+      </keyFeatures>
+      <photos>
+        <photo>https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=600</photo>
+      </photos>
+      <epcRating>E</epcRating>
+      <councilTaxBand>A</councilTaxBand>
+      <status>Available</status>
+    </property>
+
+  </properties>
+
+</propertyFeed>
