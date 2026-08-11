@@ -14,8 +14,6 @@
     <email>lettings@prestigepreston.co.uk</email>
   </agentDetails>
 
-  <properties>
-
     <!-- PROPERTY 1 — HOT for 2 bed renters under £900 -->
     <property>
       <propertyID>PREST001</propertyID>
@@ -371,7 +369,5 @@
       <councilTaxBand>A</councilTaxBand>
       <status>Available</status>
     </property>
-
-  </properties>
 
 </propertyFeed>
